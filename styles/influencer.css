@@ -24,8 +24,9 @@ h3{
 
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 2%;
+    padding-left: 10px;
 }
 
 nav > ul{
@@ -54,4 +55,32 @@ nav li a{
     background-size: contain;
 }
 
+.banner-section{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    /* border: 5px solid tomato; */
+}
 
+.banner-title{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.banner-discription{
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.btn-prebook{
+    padding: 15px 23px;
+    margin-top: 8px;
+    background-color: #E02C6D;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    
+
+}
